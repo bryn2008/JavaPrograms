@@ -15,8 +15,10 @@ public class Main {
         System.out.println("myFloatValue = " + myFloatValue);
         System.out.println("myDoubleValue = " + myDoubleValue);
 
-        
-
+        double numOfPounds = 200d;
+        double kilogramsInAPound = numOfPounds * 0.45359237d;
+        System.out.println(numOfPounds + " pound/s is equal to " + kilogramsInAPound + " kilograms");
+        // 90.7185
 
     }
 }
