@@ -3,6 +3,10 @@ package com.brynlloyd;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        Vehicle car = new Vehicle();
+
+        Jaguar eType = new Jaguar();
+
     }
 }
